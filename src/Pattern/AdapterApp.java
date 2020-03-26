@@ -2,7 +2,7 @@ package Pattern;
 
 public class AdapterApp {
     public static void main(String[] args) {
-        // 1-й способ. Наследование
+        // 1-й способ. Наследование.
         VectorGraphicsInterface g1 = new VectorAdapterFromRaster();
         g1.drawLine();
         g1.drawSquare();
